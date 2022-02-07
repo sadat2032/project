@@ -1,0 +1,133 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+/* Common css End */
+
+/* Nav Css Start */
+nav{
+    background-color: black;
+    border-bottom: 1px solid #ddd;
+
+}
+nav > .container > .row{
+    align-items: center;
+}
+nav .logo{
+    width: 20%;
+    
+
+}
+nav .logo img{
+    display: block;
+    
+}
+nav li{
+    display: inline-block;
+}
+nav .menu{
+    width: 80%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+    margin: 12px 0;
+}
+nav .menu ul li a{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 40px 18px;
+    transition: all .3s linear;
+
+
+}
+
+nav .menu ul li:hover a{
+    color: #4bcaff;
+}
+
+
+//* NAv Css End */
+
+
+/* Banner css Start*/
+
+#banner{
+    height: 700px;
+    background: url(../Images/la.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#banner .container,
+#banner .container .row{
+    height: 100%;
+}
+#banner .container .row{
+    text-align: center;
+}
+#banner .banner_img{
+    width: 50%;
+ }
+ #banner .banner_img img{
+     position: absolute;
+     left: 0;
+     bottom: 0;
+ }
+ #banner .banner_contant{
+     width: 50%;
+ }
+ #banner .banner_contant .banner_btn a{
+     display: inline-block;
+     padding: 15px 25px;
+     border: 1px solid #fff;
+     border-radius: 10px;
+     margin-right: 10px;
+ }
+ #banner .banner_content .banner_btn a:hover{
+    background-color: #4bcaff;
+    border-color: #4bcaff;
+    box-shadow: 0 2px 0px #277697;
+ }
+ #banner .banner_content .banner_app_btn a i{
+    width: 52px;
+    height: 52px;
+    background-color: black;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 50%;
+ }
+
+
+
+//* Banner css End*/
+
+/*
+
+
